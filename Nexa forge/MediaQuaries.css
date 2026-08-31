@@ -1,0 +1,212 @@
+@media screen and (max-width: 991px){
+    .nav {
+        gap: 0;
+        justify-content: space-between;
+        position: relative;
+    }
+    #icon-anchor {
+        display: block;
+        margin-top: 10px;
+    }
+    
+
+    .creators img {
+        height: 80px;
+    }
+    .anchors {
+       position: absolute;
+        flex-direction: column;
+        right: -200px;
+        top: 100%;
+        background-color: rgb(2, 119, 228);
+        height: 200px;
+        width: 20%;
+        color: white;
+        justify-content: space-around;
+        border: 3px solid black;
+        
+    }
+    .active {
+        right: 0;
+    }
+    .anchor {
+        color: white;
+    }
+    .contentarea {
+        display: flex;
+    
+    }
+    
+}
+@media screen and (max-width: 786px){
+    
+        
+    
+    
+    .card {
+        margin-top: 32px;
+        height: 350px;
+    }
+    .card img {
+        height: 75%;
+        
+    }
+    .text1 h2 {
+        line-height: 45px;
+    }
+    .card2 {
+        margin-top: 10px;
+    }
+    .box {
+        width: 38%;
+    }
+    .links {
+        flex-wrap: wrap;
+        gap: 40px;
+        height: 55%;
+    }
+    .footer {
+        height: 600px;
+    }
+    .copyright {
+        height: 20%;
+        
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .link3 {
+        width: 100%;
+        
+    }
+    .left {
+        height: 90%;
+    }
+    .left h1 {
+        font-size: 40px;
+    }
+    .left h4 {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    /* about page */
+    .textinfo p {
+        font-size: 10px;
+    }
+    .textinfo h4 {
+        font-size: 0.8rem;
+    }
+    .textinfo h3 {
+        font-size: 18px;
+    }
+    #heading {
+        font-size: 30px;
+    }
+   .softwares {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+    /* ................... */
+    #icon-anchor {
+        display: block;
+        margin-top: 20px;
+    }
+    .banner {
+        height: 30px;
+    }
+    .txt {
+       font-size: 12px;
+    }
+    .nav {
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .icon {
+        background-color: blue;
+        
+    }
+    .nav img {
+        max-width: 40%;
+    }
+    .contentArea {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+        height: 50%;
+        gap: 10px;
+    }
+    .left h1 {
+        font-size: 40px;
+    }
+    .left p {
+        font-size: 12px;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .right img {
+        max-width: 98%;
+         margin: 0;
+    }
+    .creators img {
+        height: 50px;
+    }
+    .title1 {
+        font-size: 18px ;
+    }
+    .card {
+        flex-direction: column;
+        height: 650px;
+        width: 100%;
+        justify-content:start;
+        
+    }
+    .card2 {
+        flex-direction: column;
+        height: 650px;
+        width: 100%;
+        justify-content:start;
+    }
+    .card img {
+        height: 40%;
+    }
+    .card h2, .card2 h2 {
+        font-size: 33px;
+       
+    }
+    .card2 img {
+        height: 45%;
+    }
+    .Contactus h1 {
+        font-size: 25px;
+    }
+    .box {
+    width: 80%;
+    font-size: 14px;
+}
+.Contactus h2 {
+    font-size: 20px ;
+}
+.apps img {
+    height: 30px;
+}
+#text2 {
+    font-size: 22px;
+}
+#pri, #sec {
+    width: 130px;
+    height: 24px;
+    margin-inline: 18px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.footer {
+    height: 1000px;
+}
+}

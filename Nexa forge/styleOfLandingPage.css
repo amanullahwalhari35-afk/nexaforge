@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Poppins ExtraBold;
+    src: url(poppins/Poppins-Bold.ttf)
+}
+@font-face {
+    font-family: Poppins Light;
+    src: url(poppins/Poppins-Light.ttf)
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins ExtraBold ;
+    
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+.banner {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 37, 77);
+    background-image: url(images/img_2.png) ;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.center {
+    height: 100vh;
+    width: 88vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    overflow-x: hidden;
+    
+}
+/* Navbar styling */
+.nav {
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    gap: 40%;
+    
+}
+.nav img {
+    /* height: 180px;
+    width: 200px; */
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.anchors {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.anchor {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    
+}
+.anchor:hover {
+    color: rgb(0, 37, 77);
+}
+.anchor:active {
+    color: brown;
+    background-color: darkgoldenrod;
+}
+#icon {
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+    
+}
+#icon-anchor {
+    display: none;
+}
+/* content area styling */
+.ContentArea {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+
+}
+.left {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     gap: 20px;
+     /* background-color: antiquewhite; */
+}
+.right {
+    height: 100%;
+    width: 55%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.right img {
+    max-width: 110%;
+    height: auto;
+    margin-left: 100px;
+}
+.left p {
+    font-family: Poppins Light;
+}
+.left h1 {
+    font-size: 60px;
+    color: rgb(0, 37, 77);
+    
+}
+.left h4 {
+    font-size: 30px ;
+}
+h4 span {
+    color: rgb(0, 37, 77);
+}
+.title1 {
+    text-align: center;
+}
+/* Worked with styling */
+.creators {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    
+}
+#creat {
+    border: 2px solid rgb(0, 37, 37);
+}
+.title1 {
+    color: rgb(0, 37, 77);
+}
+#creat {
+    border-radius: 50px;
+}
+/* cards styling */
+.card{
+   /* background-color: aqua;  */
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card img {
+    height: 100%;
+    width: auto;
+}
+.card p {
+    font-family: poppins light;
+     
+    
+}
+.card h2 {
+    font-size: 40px;
+    color: rgb(0, 37, 77);
+}
+.card2{
+    
+    height: 300px;
+   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.card2 img {
+    height: 100%;
+    width: auto;
+}
+.card2 h2 {
+    font-size: 40px;
+    color: rgb(0, 37, 77);
+}
+.card2 p {
+    font-family: poppins light;
+    width: 100%;
+}
+.text1 {
+     
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 50px;
+     
+}
+/* About us section */
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#pri, #sec {
+    width: 150px;
+    height: 30px;
+    margin-inline: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+#pri {
+    background-color: transparent;
+    color: rgb(0, 37, 77);
+    outline: none;
+    border: 3px solid rgb(0, 37, 77);
+    cursor: pointer;
+}
+#pri:active {
+    
+    color: rgb(27, 27, 27);
+    border: 3px solid rgb(27 , 27 , 27)
+}
+ #sec {
+    background-color: transparent;
+    color: rgb(27, 27, 27);
+    outline: none;
+    border: 3px solid rgb(27, 27, 27);
+    cursor: pointer;
+ }
+ /* contact us section */
+ .Contactus {
+    background-color: rgb(209, 228, 248);
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .Contactus h1 {
+    color:  rgb(0, 0, 0);
+    
+ }
+ .gc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .box {
+    border: 2px solid rgb(27, 27, 27) ;
+    width: 30%;
+    text-align: center;
+    color: solid rgb(27, 27, 27);
+    margin: 10px;
+ }
+ #light1, #light2 {
+    font-family: poppins light;
+ }
+ .app {
+    height: 50px;
+    width: auto;
+ }
+.app {
+    margin-inline: 10px;
+}
+/* footer styling */
+.footer {
+    height: 500px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+}
+.endlogo {
+    height: 25%;
+    color: rgb(0, 37, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links {  
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;  
+    
+}
+.link {
+   width: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+}
+.link1 a {
+    font-family: poppins light;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.link2 a {
+    font-family: poppins light;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.link3 a {
+    font-family: poppins light;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.copyright {
+    height: 5%;
+    text-align: center;
+    font-family: poppins light;
+    color: white;
+
+}

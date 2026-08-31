@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Poppins ExtraBold;
+    src: url(poppins/Poppins-Bold.ttf)
+}
+@font-face {
+    font-family: Poppins Light;
+    src: url(poppins/Poppins-Light.ttf)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    text-align: center;
+    color: rgb(0, 37, 77); 
+    
+    
+}
+
+.center {
+    height: 100vh;
+    width: 88vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    overflow-x: hidden;
+    
+}
+.sec-heading {
+    color: rgb(0, 37, 77); 
+    font-family: poppins ExtraBold;
+    font-size: 25px;
+    background-color: rgb(4, 203, 253);
+}
+#Main-heading {
+   font-size: 50px;
+   font-family: poppins Extrabold;
+}
+
+.thumbnails {
+    width: 75vw;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.imgt {
+   width: 30%;
+   height: 45%;
+}
+.posters {
+    margin-left: 10px;
+  height: 400px;
+  width: 75vw;
+  /* background-color: blue; */
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgp {
+    height: 90%;
+    width: 23%;
+    
+}
+.copyright {
+    margin-top: 25px;
+    font-family: poppins light;
+    text-align: center;
+}
+/* Lightbox designing */
+.lightbox{
+    
+    position: fixed;
+    inset: 0;
+    background-color: rgba(5, 2, 2, 0.719);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lightbox img {
+    width: 60%;
+    height: auto;
+    border: 2px solid rgb(0, 102, 255);
+}
+.buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.pri-b {
+    background-color: rgba(0, 0, 19, 0.452);
+    border: 2px solid rgb(7, 133, 236);
+    color: rgb(7, 133, 236);;
+    text-shadow: 0, 0, 50px blue;
+    width: 12%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.sec-b {
+    background-color: rgba(24, 24, 24, 0.452);
+    border: 2px solid rgb(251, 251, 252);
+    color: rgb(252, 253, 253);;
+    text-shadow: 0, 0, 50px rgb(74, 74, 124);
+    width: 10%;
+    height: auto;
+}
+.lightbox2 {
+    
+    position: fixed;
+    inset: 0;
+    background-color: rgba(5, 2, 2, 0.719);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lightbox2 img {
+    width: auto;
+    height: 70%;
+    border: 2px solid rgb(0, 102, 255);
+}
+/* Media quares */
+    @media screen and (max-width: 991px){
+        #Main-heading {
+   font-size: 40px
+        }
+
+        .thumbnails { 
+            height: 320px;
+        }
+        .posters {
+            height: 320px;
+        }
+        
+    }
+    @media screen and (max-width: 786px) {
+        .posters {
+            height: 260px;
+        }
+        .thumbnails { 
+            height: 230px;
+        }
+
+    }
+            @media screen and (max-width: 430px) {
+                .thumbnails {
+                    
+                  
+                    height: 380px;
+                }
+                .imgt {
+                    width: 48%;
+                    height: 25%;
+                }
+                .posters {
+                    height: 500px;
+                }
+                .imgp {
+                    width: 45%;
+                    height: auto;
+                }
+            }
+            .buttons {
+                width: 80%;
+            }
+            .pri-b {
+                width: 18%;
+                font-size: 12px;
+            }
+            .sec-b {
+                width: 14%;
+                 font-size: 10px;
+            }
